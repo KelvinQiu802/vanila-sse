@@ -6,7 +6,7 @@ const server = http.createServer((req, res) => {
             "Content-Type": "text/event-stream",
             "Cache-Control": "no-cache",
             "Connection": "keep-alive",
-            "Access-Control-Allow-Origin": "http://127.0.0.1:5500"
+            "Access-Control-Allow-Origin": "*"
         });
         let counter = 0
 
